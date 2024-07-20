@@ -3,9 +3,50 @@
     padding: 0;
 }
 
+body{
+    /* background-image: url(./img/netflix_background.jpg); */
+    color: #ffffff;
+}
+
 #container{
     background-color: rgba(0, 0, 0, 0.3);
     /* background-color: #0000004d; */
-    width: 1240px;
+    max-width: 1240px;
     height: 1036px;
+    margin: auto;
+    margin-top: 30px;
+    /*? margin auto verirken width vermek de önemli */
+}
+
+#title{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 50px;
+  font-style: normal;
+  letter-spacing: 0.05em;
+}
+
+span{
+    color: red;
+}
+
+#description{
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#header{
+    text-align: center;
+}
+
+#survey-form-container{
+    width: 500px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    margin-bottom: 30px;
 }
