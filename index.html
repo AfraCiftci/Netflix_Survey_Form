@@ -29,30 +29,60 @@
       <section id="survey-form-container">
         <form action="result.html" method="get">
           <div class="input-box">
-            <label for="name">Name</label> <br>
-            <input 
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter your name"/> 
+            <label for="name">Name</label> <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
           </div>
 
           <div class="input-box">
-<label for="age">Age</label> <br>
-<input type="number" name="age" id="age" placeholder="Age">
+            <label for="age">Age</label> <br />
+            <input type="number" name="age" id="age" placeholder="Age" />
           </div>
           <div class="input-box">
-            <label for="email">E-Mail</label> <br>
-            <input type="email" name="email" id="email" placeholder="Enter your E-mail">
+            <label for="email">E-Mail</label> <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your E-mail"
+            />
           </div>
 
           <div class="input-box">
-            <label for="">Content Type</label> <br>
+            <label for="">Content Type</label> <br />
             <select name="content" id="dropdown">
-                <option value="movies">Movies</option>
-                <option value="series" selected>Series</option>
-                <option value="tv-shows">Tv Shows</option>
+              <option value="movies">Movies</option>
+              <option value="series" selected>Series</option>
+              <option value="tv-shows">Tv Shows</option>
             </select>
+          </div>
+          <div class="input-box" id="checkbox">
+            <label for="">Movie Type</label> <br />
+            <input type="checkbox" name="movie1" id="first-check" />
+            <label for="first-check">Comedy</label> <br />
+            <input type="checkbox" name="movie2" id="second-check" />
+            <label for="second-check">Action</label> <br />
+            <input type="checkbox" name="movie3" id="third-check" />
+            <label for="third-check">Romance </label>
+          </div>
+
+          <div class="input-box" id="radio">
+            <label for="">Gender</label> <br />
+            <input type="radio" name="gender" id="first-radio" value="Male" />
+            <label for="first-radio">Male</label> <br />
+            <input
+              type="radio"
+              name="gender"
+              id="second-radio"
+              value="female"
+            />
+            <label for="second-radio">Female </label> <br />
+            <input type="radio" name="gender" id="third-radio" value="divers" />
+            <label for="third-radio">Divers</label>
           </div>
 
           <div class="form-submit">
