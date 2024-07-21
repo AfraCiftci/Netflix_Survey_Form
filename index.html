@@ -29,14 +29,34 @@
       <section id="survey-form-container">
         <form action="result.html" method="get">
           <div class="input-box">
-            <label for="name">Name</label>
-            <br>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-            />
+            <label for="name">Name</label> <br>
+            <input 
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"/> 
+          </div>
+
+          <div class="input-box">
+<label for="age">Age</label> <br>
+<input type="number" name="age" id="age" placeholder="Age">
+          </div>
+          <div class="input-box">
+            <label for="email">E-Mail</label> <br>
+            <input type="email" name="email" id="email" placeholder="Enter your E-mail">
+          </div>
+
+          <div class="input-box">
+            <label for="">Content Type</label> <br>
+            <select name="content" id="dropdown">
+                <option value="movies">Movies</option>
+                <option value="series" selected>Series</option>
+                <option value="tv-shows">Tv Shows</option>
+            </select>
+          </div>
+
+          <div class="form-submit">
+            <button id="form-button">SEND</button>
           </div>
         </form>
       </section>
